@@ -6,3 +6,15 @@ https://peterli.website/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8nginx-gunicorn%E8%88
 ## run
 Instead of flask default WSGI, we run use Gunicron as WSGI server for Python flask
 `gunicorn --bind=127.0.0.1:5001 wsgi:app`
+
+
+## on Nginx
+1. edit this file in your linux or vps or cloud vm..etc -> /etc/nginx/sites-available/default
+2. change here:
+   
+    ```
+    location / {
+            proxy_pass http://127.0.0.1:5001;
+            
+            }
+    ```
