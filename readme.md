@@ -21,10 +21,10 @@ Instead of flask default WSGI, we run use Gunicron as WSGI server for Python fla
 
 
 ### Reference
-1. https://www.cyberciti.biz/faq/nginx-linux-restart/
+1. https://www.cyberciti.biz/faq/nginx-linux-restart/   
 2. https://www.cyberciti.biz/faq/nginx-restart-ubuntu-linux-command/
 3. https://www.cnblogs.com/ray-liang/p/4837850.html
 4. https://nginx.org/
 5. https://gunicorn.org/#quickstart
-6. https://peterli.website/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8nginx-gunicorn%E8%88%87supervisor-%E9%83%A8%E7%BD%B2%E4%B8%80%E5%80%8Bflask-app/
+6. https://peterli.website/%E5%A6%82%E4%BD%95%E4%BD%BF%Eq7%94%A8nginx-gunicorn%E8%88%87supervisor-%E9%83%A8%E7%BD%B2%E4%B8%80%E5%80%8Bflask-app/
 7. https://dotblogs.com.tw/grayyin/2017/05/18/183117

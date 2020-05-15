@@ -6,5 +6,5 @@ app = Flask(__name__)
 def index():
     return "Nginx as reverse Proxy to gunicorn"
 
-# if __name__ == '__main__':
-#     app.run(port=5001, debug=True)
+if __name__ == '__main__':
+    app.run(port=5001, debug=True)
